@@ -1,0 +1,6 @@
+compatibility_date = "2023-08-15"
+main = "index.js"
+name = "picperf-proxy"
+
+[vars]
+ENVIRONMENT = "production"

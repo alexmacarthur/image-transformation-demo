@@ -1,0 +1,22 @@
+{
+  "name": "picperf-proxy",
+  "private": true,
+  "version": "1.0.0",
+  "description": "package for creating workers templates",
+  "scripts": {
+    "start": "wrangler dev --remote",
+    "test": "vitest run .",
+    "check": "tsc",
+    "format": "prettier --write '**/*.{js,md}'",
+    "publish": "wrangler deploy"
+  },
+  "author": "Alex MacArthur",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "wrangler": "^3.28.3"
+  },
+  "dependencies": {
+    "serverless-cloudflare-workers": "^1.2.0"
+  }
+}
